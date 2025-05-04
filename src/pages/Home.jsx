@@ -268,6 +268,7 @@ const PropertyCard = ({ property, onSave }) => {
   const ShowerHeadIcon = getIcon('ShowerHead');
   const SquareIcon = getIcon('Square');
   const HeartIcon = getIcon('Heart');
+  const MapPinIcon = getIcon('MapPin');
   
   const formatPrice = (price) => {
     return property.listingType === 'rent'
